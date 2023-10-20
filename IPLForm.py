@@ -72,7 +72,7 @@ def registration_form():
     st.write("Sumer Pandey: 9979878903")
     st.write("Registration Fees: RS50 per team")
     registration_fees = 50
-    st.write(f"Total Registration Fees: ${registration_fees}")
+    st.write(f"Total Registration Fees: {registration_fees}")
 
     # Payment Instructions Image
     payment_instructions_image = Image.open("payment.jpg")
